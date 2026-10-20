@@ -1,0 +1,16 @@
+# Generated verification images and reports
+verification/
+
+# Local archives and build intermediates
+*.zip
+*.pdb
+*.log
+bin/
+obj/
+
+# IDE and operating-system files
+.vs/
+.idea/
+.vscode/
+Thumbs.db
+Desktop.ini
