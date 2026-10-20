@@ -30,7 +30,7 @@ namespace WDesktopPet {
         }
         public static readonly Skin[] All = {
             new Skin("cyclone-joker", "疾风王牌", "w-sprites.png", "Cyclone！Joker！", Color.FromArgb(23, 107, 67), Color.FromArgb(38, 33, 46)),
-            new Skin("heat-metal", "炽热金属（火焰金属）", "heat-metal.png", "Heat！Metal！", Color.FromArgb(172, 46, 50), Color.FromArgb(208, 213, 220)),
+            new Skin("heat-metal", "炽热金属", "heat-metal.png", "Heat！Metal！", Color.FromArgb(172, 46, 50), Color.FromArgb(208, 213, 220)),
             new Skin("luna-trigger", "月神扳机", "luna-trigger.png", "Luna！Trigger！", Color.FromArgb(232, 195, 74), Color.FromArgb(22, 88, 171)),
             new Skin("fang-joker", "獠牙王牌", "fang-joker.png", "Fang！Joker！", Color.FromArgb(233, 237, 239), Color.FromArgb(40, 35, 47))
         };
