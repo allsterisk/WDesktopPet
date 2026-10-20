@@ -1,5 +1,7 @@
 # 假面骑士 W · 风都桌宠
 
+简体中文 | [English](README.en.md)
+
 Windows 独立桌宠，支持四套假面骑士 W 形态与 Q 版像素精灵。普通台词使用统一深色对话框，仅变身台词使用当前皮肤的左右双色对话框。双击 **WDesktopPet.exe** 即可运行，无需 Python，无需联网。需要 Windows 自带的 .NET Framework 4.x。
 
 [下载 Windows 可执行文件](https://github.com/allsterisk/WDesktopPet/raw/refs/heads/main/WDesktopPet.exe)
@@ -28,11 +30,9 @@ Windows 独立桌宠，支持四套假面骑士 W 形态与 Q 版像素精灵。
 
 默认置顶、透明背景、不占任务栏。散步保持当前高度，在所在显示器的工作区内折返。支持副屏的负坐标，调整显示器后自动收回可见范围。休息时保持蹲坐。重复启动只保留一个实例。
 
-位置、大小、散步偏好和所选皮肤保存在 `%LOCALAPPDATA%\WDesktopPet\settings.txt`。兼容原版的设置文件。
+位置、大小、散步偏好和所选皮肤保存在 `%LOCALAPPDATA%\WDesktopPet\settings.txt`。
 
 不设置开机启动，不访问网络。退出通过右键菜单完成。
-
-更新时先从右键菜单退出旧版，再启动新版 exe。
 
 ## 许可证
 
