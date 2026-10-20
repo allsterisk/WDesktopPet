@@ -17,19 +17,8 @@ Windows 独立桌宠，疾风王牌配色、Q 版像素精灵。双击 **WDeskto
 
 位置、大小、散步偏好保存在 `%LOCALAPPDATA%\WDesktopPet\settings.txt`。不设置开机启动，不访问网络。退出通过右键菜单完成。
 
-## 源码与检查
-
-- `Pet.cs`：WinForms 透明分层窗口、动画和交互。
-- `assets/w-sprites.png`：4 列 × 2 行，透明精灵图，已嵌入 exe；单独复制 exe 也能运行。
-- `build.ps1`：使用 Windows 自带 C# 编译器构建：`powershell -ExecutionPolicy Bypass -File .\build.ps1`。
-- `WDesktopPet.exe --self-test`：无窗口渲染检查，生成 `verification` 文件夹；`result.txt` 为检查结果。
-
-已验证编译、8 个动作帧、透明背景、气泡绘制及多屏位置边界。桌面拖动、托盘菜单及不同 DPI 下的显示效果需实际启动确认。
-
-这是一款个人同人桌宠，角色属于其原权利人。素材通过内置 imagegen 工具生成，提示词保存在 `assets/prompt.txt`。
-
 ## 许可证
 
 本项目的原创程序代码、构建脚本和说明文档采用 [MIT License](LICENSE)，允许在保留许可证及版权声明的前提下使用、修改和分发。
 
-`assets/` 目录及可执行文件内嵌的角色精灵图不在 MIT 授权范围内。假面骑士 W 的角色、名称、标识及其他第三方权利归原权利人所有，本项目不授予这些权利。素材范围详见 [assets/NOTICE.md](assets/NOTICE.md)。
+`assets/` 目录及可执行文件内嵌的角色精灵图不在 MIT 授权范围内。假面骑士 W 的角色、名称、标识及其他第三方权利归原权利人所有，本项目不授予这些权利。
